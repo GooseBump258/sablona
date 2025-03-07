@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<section class="container">
+    <div class="row">
+        <div class="col-100 text-center">
+            <?php
+            $hour = date('H');
+            if ($hour < 12) {
+                echo "<h3>Dobré ráno</h3>";
+            } elseif ($hour < 18) {
+                echo "<h3>Dobrý deň</h3>";
+            } else {
+                echo "<h3>Dobrý večer</h3>";
+            }
+            ?>
+        </div>
+    </div>
+</section>
+
+
     <header class="container main-header">
         <div>
           <a href="index.html">
@@ -106,5 +124,6 @@
 
     <script src="js/menu.js"></script>
     <script src="js/slider.js"></script>
+
 </body>
 </html>
