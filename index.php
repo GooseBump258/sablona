@@ -10,6 +10,17 @@
 </head>
 <body>
 
+<?php
+
+function Pozdrav() {
+    
+    $data = json_decode(file_get_contents('pozdrav.json'), true);
+    
+ 
+    echo $data['pozdrav'];
+}
+?>
+
 
 
     <header class="container main-header">
@@ -36,7 +47,7 @@
         <div class="slide fade">
           <img src="img/banner1.jpg">
           <div class="slide-text">
-            Prvý nadpis
+          <?php Pozdrav(); ?>
           </div>
         </div>
         
