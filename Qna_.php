@@ -19,13 +19,5 @@ class Qna_ {
         }
     }
 
-    /*
-    // Táto metóda vkladá otázku a odpoveď do tabuľky 'qna' (aktuálne zakomentovaná)
-    public function insertQnA($question, $answer) {
-        $stmt = $this->conn->prepare("INSERT INTO qna (question, answer) VALUES (?, ?)");
-        $stmt->bind_param("ss", $question, $answer); aa
-        $stmt->execute();
-        $stmt->close();
-    }
-    */
+    
 }
