@@ -33,7 +33,7 @@ function Pozdrav() {
         <ul class="main-menu" id="main-menu">
             <li><a href="index.html">Domov</a></li>
             <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="qna.html">Q&A</a></li>
+            <li><a href="qna.php">Q&A</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
         <a class="hamburger" id="hamburger">
