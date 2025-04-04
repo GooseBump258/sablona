@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = ""; // žiadne heslo pri XAMPP
-$database = "moja_stranka"; // presne ten názov, ktorý ste použili
+$database = "sablona"; // presne ten názov, ktorý ste použili
 
 $conn = new mysqli($servername, $username, $password, $database);
 
