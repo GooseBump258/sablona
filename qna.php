@@ -1,8 +1,8 @@
 <?php
 require_once 'db_connection.php';
-require_once 'Qna.php';
+require_once 'Qna_.php';
 
-$qna = new Qna($conn);
+$qna = new Qna_($conn);
 $items = $qna->getAllQnA();
 ?>
 
