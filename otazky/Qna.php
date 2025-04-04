@@ -1,6 +1,6 @@
 <?php
 
-class QnA {
+class Qna {
     private $conn;
 
     public function __construct($db) {
